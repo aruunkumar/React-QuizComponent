@@ -11,7 +11,7 @@ class Quiz extends Component {
     render() {
         console.log('Starting quiz');
         return (
-            <div className="QuizQuestion">{quizData.quiz_questions[1].instruction_text}
+            <div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}
             </div>);
         }
     };
